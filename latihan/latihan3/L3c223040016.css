@@ -1,0 +1,45 @@
+body {
+    background-color: aqua;
+    font-family: georgia;
+    text-align: justify;
+}
+
+h1 {
+    font-family: comic sans ms;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+.program{
+    color: white;
+    font-variant: small-caps;
+}
+
+.program:hover{
+    color: red;
+}
+
+.name:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+h4 {
+    text-align: right;
+    font-style: oblique;
+}
+
+.paragraf1{
+    text-align: center;
+    color: orangered;
+
+}
+
+.paragraf2{
+    text-align: right;
+}
+
+a {
+    text-decoration: none;
+}

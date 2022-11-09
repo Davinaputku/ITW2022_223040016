@@ -1,0 +1,118 @@
+body {
+    line-height: 1;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote::after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* style */
+
+body {
+    font: 16px/28px arial, sans-serif;
+    background-color: lavenderblush;
+    color: purple;
+    background-image: url("img/komikhp.jpg");
+    font-family:'Times New Roman';
+}
+
+.container {
+    width: 800px;
+    margin: auto;
+    background-color: lavender;
+}
+
+.header {
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.header a {
+    text-decoration: none;
+    color: magenta;
+    padding: 3px;
+}
+
+.header a:hover {
+    background-color: hotpink;
+    color: lavenderblush;
+}
+
+.hero {
+    height: 280px;
+    background-image: url("img/komikwarna.jpg");
+    background-clip: cover;
+    background-position: 0 -180px;
+    border-bottom: 5px solid hotpink;
+    border-top: 5px solid hotpink;
+}
+
+.komik {
+    background-image: url("img/cerita.jpg");
+    height: 465px;
+    width: 71%;
+}
+
+.content {
+    padding: 20px;
+}
+
+.content h2 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis {
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content .penulis a {
+    color: magenta;
+    text-decoration: none;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.sumber a{
+    text-decoration: none;
+}
+
+.footer {
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.footer .copy {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

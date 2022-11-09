@@ -1,0 +1,51 @@
+body {
+    background-repeat: no-repeat;
+    font-family: georgia;
+    background-size: cover;
+    background-image: url("img/background.png");
+}
+
+h1 {
+    font-family: comic sans ms;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.program{
+    color: red;
+    font-variant: small-caps;
+}
+
+.program:hover{
+    color: white;
+   
+}
+
+.name:hover{
+    color: white;
+    background-color: darkblue;
+}
+
+h4 {
+    text-align: center;
+    font-style: oblique;
+}
+
+.paragraf1{
+    text-align: center;
+    color: orangered;
+
+}
+
+.paragraf2{
+    text-align: right;
+}
+
+a{
+    text-decoration: none;
+}
