@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern CSS</title>
+    <style>
+        .kotak1 {
+            width: 150px;
+            height: 150px;
+            background-color: rgba(255, 71, 99, 0.5);
+            margin: auto;
+            border-radius: 50%; 
+            opacity: 1;
+            position: relative;
+            z-index: 10;
+            overflow: hidden;
+        }
+
+        p{
+            position: relative;
+            top: -100px;
+        }
+        
+        .kotak2 {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            margin: auto;
+            /* box-shadow: [inset] <x-offset> <y-offset> <blur> [size] <color>; */
+            /*box-shadow: 10px 10px 10px 10px lightgreen, -10px -10px 10px lightskyblue, 10px -10px 10px palevioletred;
+            */
+            box-shadow: 0 0 0 10px lightblue, 0 0 0 10px lightcoral, 0 0 0 20px lawngreen;
+            border-radius: 50%;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 100px;
+            font-family: 'Times New Roman';
+            font-size: 100px;
+            text-shadow: 10px 10px 10px gray;
+            
+        }
+        .kotak3 {
+            width: 200px;
+            height: 200px;
+            background-color: limegreen;
+            margin: auto;
+            /* transform: translate(100px, 70px); */
+            /* transform: scale(0.4); */
+            /* transform: skew(20deg); */
+            /*transform: rotate(45deg); */
+            font-size: 50px;
+            text-align: center;
+            line-height: 200px;
+            transform: 3s all;
+            
+        }
+
+        .kotak3:hover {
+            transform: rotate(720deg);
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+   
+    <div class="kotak1">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, quas.
+
+    </div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim sint nobis odio labore quos nulla nam est tenetur unde consequuntur, ut perspiciatis eum repudiandae aliquam in. Cumque beatae facilis quam, aliquid maiores rerum magni ea, unde commodi odit quo optio delectus molestias, ut autem. Et consequuntur nostrum iure error. Id!
+    </p>
+
+    <div class="kotak2"></div>
+
+    <h1>Davina Putri Kusuma</h1>
+
+    <div class="kotak3">5</div>
+</body>
+</html>
